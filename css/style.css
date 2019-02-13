@@ -1,0 +1,113 @@
+body , html{
+    margin: 0;
+    height: 100%;
+}
+.fas{
+    font-size: 30px!important;
+   
+}
+
+.black{
+    background-color: black;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 250px;
+  width: 170px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.custom-container:hover .overlay {
+  opacity: 1;
+}
+.custom-container {
+  position: relative;
+   width: 170px;
+    height: 250px; 
+    display: inline-block;
+}
+
+.text {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.marioHover:hover{
+    background: white;
+    transition: 2s;
+}
+
+.black{
+    background-color: black!important;
+}
+
+.cover{
+   width: 170px;
+    height: 250px; 
+}
+
+.poster2{
+    width: 450px;
+    height: 650px; 
+}
+
+@media screen and (max-width:550px){
+ 
+.cover{
+   width: 140px;
+    height: 200px; 
+    margin-left: 10px;
+}
+    
+  .custom-container {
+  position: relative;
+   width: 140px;
+    height: 200px; 
+    display: inline-block;
+       margin-left: 10px;
+}  
+    
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  width: 140px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+     margin-left: 10px;
+}  
+    
+  .poster2{
+    width: 225px;
+    height: 250px; 
+    margin-left: 45px;
+}  
+    
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    
+
+    
+}
